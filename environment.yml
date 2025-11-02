@@ -1,0 +1,20 @@
+name: data-scraping
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - selenium
+  - beautifulsoup4
+  - pandas
+  - lxml
+  - requests
+  - scrapy
+  - playwright
+  - twine
+  - pip
+  - pip:
+    - webdriver-manager
+    - fake-useragent
+    - scrapy-selenium
+    - urllib3
